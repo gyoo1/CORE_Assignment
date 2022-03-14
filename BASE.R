@@ -21,5 +21,5 @@ bp.DNA <- function(DNAseq, FileName){
 }
 
 #Example
-my_seq <- read.DNA("Random_Sequence")
-bp.DNA(my_seq)
+#my_seq <- read.DNA("Random_Sequence")
+#bp.DNA(my_seq)

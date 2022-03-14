@@ -13,4 +13,4 @@ def DNAgen(FileName, Nb):
     print(">" + FileName + "\n" + my_seq)
 
 #example
-DNAgen("my_sequence", 21)
+#DNAgen("Random_Sequence", 21)
