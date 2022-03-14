@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 14 10:51:26 2022
-
-@author: gyoo1
-"""
-
 ## Function for generating a random DNA sequence
 import random
 def DNAgen(FileName, Nb):
