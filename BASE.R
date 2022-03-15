@@ -13,13 +13,13 @@ bp.DNA <- function(DNAseq, FileName){
         Gg = lengths(regmatches(DNAseq[2], gregexpr("[Gg]", DNAseq[2])))
         Cc = lengths(regmatches(DNAseq[2], gregexpr("[Cc]", DNAseq[2])))
         Tt = lengths(regmatches(DNAseq[2], gregexpr("[Tt]", DNAseq[2])))
-        output <- paste(Aa, Gg, Cc, Tt, sep = ", ") #number of A, G, C, T bases in sequence
-        return(output)
         
+        output <- paste(Aa, Gg, Cc, Tt, sep = ", ") #number of A, G, C, T bases in sequence
         countfile = paste0(FileName, ".count")
         write(output, file = countfile) #output file
+        return(output)
 }
 
 #Example
-#my_seq <- read.DNA("Random_Sequence")
-#bp.DNA(my_seq)
+# DNAseq <- read.DNA("Random_Sequence")
+# bp.DNA(DNAseq, "Random_Sequence")
