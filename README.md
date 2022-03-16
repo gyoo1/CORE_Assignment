@@ -8,8 +8,10 @@ Assignment prepared for BIOL 812 Introduction to Computational Analysis Winter 2
 
 # Scripts
 1. `DNAgen.py` - simulates random DNA sequences of a given length
+  + Parameters: `FileName` = output text file name, `Nb` = length of simulated sequences
 2. `BASE.R` - counts number of bases for given DNA sequences
-3. `DNAnalyze.sh` - calls DNAgen.py and BASE.R; produces a .csv file with the results
+  + Parameters: `FileName` = input & output text file name
+3. `DNAnalyze.sh` - calls DNAgen.py and BASE.R; creates a .csv file with the output from BASE.R
 4. `BpFigure.R` - generates histograms for the DNA base counts
 
 # Pipeline
