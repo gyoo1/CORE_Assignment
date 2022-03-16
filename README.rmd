@@ -17,7 +17,7 @@ Assignment prepared for BIOL 812 Introduction to Computational Analysis Winter 2
 4. BpFigure.R - generates histograms for the DNA base counts
 
 # Pipeline
-![pipeline for the BIOL 812 assignment](/Users/gyoo1/Desktop/Queens 2021-2022/Courses/812/CORE_Assignment/Pipeline.png)
+![pipeline for the BIOL 812 assignment](./Pipeline.png)
 
 1. DNAnalyze.sh calls DNAgen.py and generates 100 sequences of length 1000bp. File names follow this format: DNAseq001.seq ... DNAseq1000.seq
 2. DNAnalyze.sh calls BASE.R and uses output from Step 1 to generate counts for each base type. Results are output as DNAseq001.count ... DNAseq100.count
